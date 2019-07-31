@@ -12,6 +12,14 @@ I template sono stati realizzati in  modo da soddisfare al meglio
 le [specifiche](https://www.unibs.it/segreterie-studenti/laurearsi/esami-di-laurea/redazione-tesi-di-laurea/relazione-finale)
 fornite dall'ateneo.
 
+### File Utili
+I file di interesse per l'utente finale sono:
+*  [Frontespizio per la Tesi Triennale](https://github.com/FilippoRanza/sweetink/blob/master/frontespizio_triennale.tex)
+*  [Frontespizio per la Tesi Magistrale](https://github.com/FilippoRanza/sweetink/blob/master/frontespizio_magistrale.tex)
+*  [Stemma dell'Università](https://github.com/FilippoRanza/sweetink/blob/master/logo_unibs.png)
+
+
+
 ## Utilizzo
 I template sono pensati per essere pronti all'uso, una volta fatte le
 dovute modifiche, illustrate all'interno dei template stessi, basta includerli
