@@ -14,7 +14,7 @@ sudo apt install texlive-lang-italian -y -qq --no-install-recommends
 # alla volta quindi compila
 
 for f in frontespizio_* ; do 
-    perl -pe "s|%CHANGE_HERE|$f|" > 'tesi_temp.tex'
+    perl -pe "s|%CHANGE_HERE|$f|" 'tesi.tex'  > 'tesi_temp.tex'
     pdflatex -synctex=1 -interaction=nonstopmode --shell-escape 'tesi_temp.tex'
     [[ -f 'tesi_temp.tex' ]] || exit 1
 done
