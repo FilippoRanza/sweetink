@@ -1,14 +1,12 @@
 # sweetink
 Template per il frontespizio della tesi in LaTex
 
-
 ## Descrizione
 Questo progetto contiene dei template per il frontespizio
 della tesi di laurea dell'Università degli Studi di Brescia
 
 I template sono stati realizzati in  modo da soddisfare al meglio
 le specifiche fornite dall'ateneo.
-
 
 ## Utilizzo
 
@@ -18,9 +16,6 @@ dovute modifiche, illustrate all'interno dei template stessi, basta includerli a
 % dovrebbe essere la prima riga del corpo del documento
 \include{frontespizio_magistrale}
 ```
-
-
-
 
 Per poter compilare il documento è necessario includere alcuni 
 pacchetti esterni:
