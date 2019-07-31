@@ -34,5 +34,5 @@ pacchetti esterni:
 Il download di questo codice può essere effettuato tramite l'apposito
 bottone download in alto nella pagina oppute tramite i seguenti link:
 * [zip versione di sviluppo](https://github.com/FilippoRanza/sweetink/archive/master.zip)
-* [zip versione revisionata (Windows)]()
-* [tar.gz versione revisionata (macOS - Linux)]()
+* [zip versione revisionata (Windows)](https://github.com/FilippoRanza/sweetink/archive/v0.1.zip)
+* [tar.gz versione revisionata (macOS - Linux)](https://github.com/FilippoRanza/sweetink/archive/v0.1.tar.gz)
