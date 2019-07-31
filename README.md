@@ -18,7 +18,6 @@ I file di interesse per l'utente finale sono:
 *   [Frontespizio per la Tesi Magistrale](https://github.com/FilippoRanza/sweetink/blob/master/frontespizio_magistrale.tex)
 *   [Stemma dell'Università](https://github.com/FilippoRanza/sweetink/blob/master/logo_unibs.png)
 
-
 ## Utilizzo
 I template sono pensati per essere pronti all'uso, una volta fatte le
 dovute modifiche, illustrate all'interno dei template stessi, basta includerli
@@ -41,6 +40,6 @@ pacchetti esterni:
 ## Download
 Il download di questo codice può essere effettuato tramite l'apposito
 bottone download in alto nella pagina oppute tramite i seguenti link:
-*    [zip versione di sviluppo](https://github.com/FilippoRanza/sweetink/archive/master.zip)
-*    [zip versione revisionata (Windows)](https://github.com/FilippoRanza/sweetink/archive/v0.1.zip)
-*    [tar.gz versione revisionata (macOS - Linux)](https://github.com/FilippoRanza/sweetink/archive/v0.1.tar.gz)
+*   [zip versione di sviluppo](https://github.com/FilippoRanza/sweetink/archive/master.zip)
+*   [zip versione revisionata (Windows)](https://github.com/FilippoRanza/sweetink/archive/v0.1.zip)
+*   [tar.gz versione revisionata (macOS - Linux)](https://github.com/FilippoRanza/sweetink/archive/v0.1.tar.gz)
