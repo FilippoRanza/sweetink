@@ -28,6 +28,7 @@ pacchetti esterni:
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{geometry}
+\usepackage{graphicx}
 ```
 
 ## Download
