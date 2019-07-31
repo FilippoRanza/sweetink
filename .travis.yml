@@ -1,5 +1,5 @@
 language: minimal
 
-script: bash compile.sh
+script: bash test.sh
 
 dist: bionic
