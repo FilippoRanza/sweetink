@@ -6,10 +6,11 @@ Template per il frontespizio della tesi in LaTex
 
 ## Descrizione
 Questo progetto contiene dei template per il frontespizio
-della tesi di laurea dell'Università degli Studi di Brescia
+della tesi di laurea dell'[Università degli Studi di Brescia](https://www.unibs.it/)
 
 I template sono stati realizzati in  modo da soddisfare al meglio
-le specifiche fornite dall'ateneo.
+le [specifiche](https://www.unibs.it/segreterie-studenti/laurearsi/esami-di-laurea/redazione-tesi-di-laurea/relazione-finale)
+fornite dall'ateneo.
 
 ## Utilizzo
 I template sono pensati per essere pronti all'uso, una volta fatte le
@@ -28,3 +29,10 @@ pacchetti esterni:
 \usepackage[T1]{fontenc}
 \usepackage{geometry}
 ```
+
+## Download
+Il download di questo codice può essere effettuato tramite l'apposito
+bottone download in alto nella pagina oppute tramite i seguenti link:
+* [zip versione di sviluppo](https://github.com/FilippoRanza/sweetink/archive/master.zip)
+* [zip versione revisionata (Windows)]()
+* [tar.gz versione revisionata (macOS - Linux)]()
