@@ -1,0 +1,5 @@
+language: minimal
+
+script: bash compile.sh
+
+dist: bionic
