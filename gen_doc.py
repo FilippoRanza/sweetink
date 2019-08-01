@@ -23,7 +23,7 @@ def process_file(title, name):
     e = name.index('.')
     out_name = join('docs', name[s:e] + '.md')
     with open(out_name, 'w') as f:
-        print(out, file=f) 
+        print(out, file=f)
 
 
 def main():
@@ -33,4 +33,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
