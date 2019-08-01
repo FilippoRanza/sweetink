@@ -20,7 +20,7 @@ fi
 # alla volta quindi compila
 
 for f in frontespizio_* ; do 
-    perl -pe "s|%CHANGE_HERE|$f|" 'tesi.tex'  > 'tesi_temp.tex'
+    perl -pe "s|%CHANGE_HERE|\\\include{${f//.tex/}}|" 'tesi.tex'  > 'tesi_temp.tex'
     pdflatex -synctex=1 -interaction=nonstopmode --shell-escape 'tesi_temp.tex'
     [[ -f 'tesi_temp.tex' ]] || exit 1
 done
