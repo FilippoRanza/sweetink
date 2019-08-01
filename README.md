@@ -37,6 +37,15 @@ pacchetti esterni:
 \usepackage{graphicx}
 ```
 
+### Note Compilazione
+Il codice viene compilato automaticamente in ambiente:
+*   _Linux_ utilizzando _texlive-full_
+*   _macOS_ utilizzando _mactex_
+*   _Windows_ utilizzando _miktex_ (attualmente su Windows non è possible il testing)
+
+Per compilare con successo il codice fornito è consigliato installare 
+la versione completa dei pacchetti LaTex per la propria piattaforma
+
 ## Download
 Il download di questo codice può essere effettuato tramite l'apposito
 bottone download in alto nella pagina oppute tramite i seguenti link:
