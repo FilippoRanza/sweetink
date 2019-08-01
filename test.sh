@@ -10,6 +10,8 @@ if [[ "$TRAVIS_OS_NAME" = "linux" ]]; then
                         grep -v  'doc' ) -y -qq --no-install-recommends
 
     sudo apt install texlive-lang-italian -y -qq --no-install-recommends
+elif [[ "$TRAVIS_OS_NAME" = "osx" ]]; then
+    brew cask install mactex
 else
     choco install miktex.install 
 fi 
