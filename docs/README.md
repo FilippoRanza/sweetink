@@ -7,16 +7,20 @@ Template per il frontespizio della tesi in LaTex
 ## Descrizione
 Questo progetto contiene dei template per il frontespizio
 della tesi di laurea dell'[Università degli Studi di Brescia](https://www.unibs.it/)
+realizzati in latex.
 
 I template sono stati realizzati in  modo da soddisfare al meglio
 le [specifiche](https://www.unibs.it/segreterie-studenti/laurearsi/esami-di-laurea/redazione-tesi-di-laurea/relazione-finale)
 fornite dall'ateneo.
 
 ### File Utili
-I file di interesse per l'utente finale sono:
+Qui sono presenti i template dei frontespizi
 *   [Frontespizio per la Tesi Triennale](triennale.html)
 *   [Frontespizio per la Tesi Magistrale](magistrale.html)
-*   [Stemma dell'Università](https://github.com/FilippoRanza/sweetink/blob/master/logo_unibs.png)
+
+Per il download si raccomanda l'utilizzo degli appositi bottoni 
+in cima alla pagina, i quali consentono di scaricare anche 
+il logo dell'Università utilizzato all'interno dei template.
 
 ## Utilizzo
 I template sono pensati per essere pronti all'uso, una volta fatte le
@@ -43,12 +47,6 @@ Il codice viene compilato automaticamente in ambiente:
 *   _macOS_ utilizzando _mactex_
 *   _Windows_ utilizzando _miktex_ (attualmente su Windows non è possible il testing)
 
-Per compilare con successo il codice fornito è consigliato installare 
-la versione completa dei pacchetti LaTex per la propria piattaforma
-
-## Download
-Il download di questo codice può essere effettuato tramite l'apposito
-bottone download in alto nella pagina oppute tramite i seguenti link:
-*   [zip versione di sviluppo](https://github.com/FilippoRanza/sweetink/archive/master.zip)
-*   [zip versione revisionata (Windows)](https://github.com/FilippoRanza/sweetink/archive/v0.1.zip)
-*   [tar.gz versione revisionata (macOS - Linux)](https://github.com/FilippoRanza/sweetink/archive/v0.1.tar.gz)
+Vista la necessità di diversi pacchetti esterni, per procedere ad una compilazione 
+corretta è consigliato di installare la versione completa dell'ambiente di
+sviluppo latex per la propria piattaforma.
