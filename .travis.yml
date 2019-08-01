@@ -1,7 +1,9 @@
-os:
-  - windows
-  - linux
-    dist: bionic
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+    - os: windows
+
 
 
 language: minimal

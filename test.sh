@@ -1,14 +1,18 @@
 #! /bin/bash
 
 # installa solo quello che serve da texlive-full.
-sudo apt update -qqq
-sudo apt install $(apt-cache depends texlive-full |
-                    grep Depends: |
-                    awk '{print $2}' |
-                    grep -v 'lang' |
-                    grep -v  'doc' ) -y -qq --no-install-recommends
+if [[ "$TRAVIS_OS_NAME" = "linux" ]]; then
+    sudo apt update -qqq
+    sudo apt install $(apt-cache depends texlive-full |
+                        grep Depends: |
+                        awk '{print $2}' |
+                        grep -v 'lang' |
+                        grep -v  'doc' ) -y -qq --no-install-recommends
 
-sudo apt install texlive-lang-italian -y -qq --no-install-recommends
+    sudo apt install texlive-lang-italian -y -qq --no-install-recommends
+else
+    choco install miktex.install 
+fi 
 
 # modifica tesi.tex in modo che includa un frontespizio
 # alla volta quindi compila
