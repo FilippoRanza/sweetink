@@ -15,7 +15,7 @@ fornite dall'ateneo.
 ### File Utili
 I file di interesse per l'utente finale sono:
 *   [Frontespizio per la Tesi Triennale](triennale.html)
-*   [Frontespizio per la Tesi Magistrale](https://github.com/FilippoRanza/sweetink/blob/master/frontespizio_magistrale.tex)
+*   [Frontespizio per la Tesi Magistrale](magistrale.html)
 *   [Stemma dell'Università](https://github.com/FilippoRanza/sweetink/blob/master/logo_unibs.png)
 
 ## Utilizzo
