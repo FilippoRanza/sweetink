@@ -39,6 +39,13 @@ pacchetti esterni:
 \usepackage{graphicx}
 ```
 
+È dunque sufficente copiare il template d'interesse e il logo 
+dell'ateneo nella cartella in cui è presente il codice latex
+della tesi e procedere con le opportune modifiche.  
+
+Una volta fatto è possibile eliminare i file scaricati 
+senza alcun problema.
+
 ### Note Compilazione
 Il codice viene compilato automaticamente in ambiente:
 *   _Linux_ utilizzando _texlive-full_
