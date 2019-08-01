@@ -1,5 +1,11 @@
+os:
+  - windows
+  - linux
+    dist: bionic
+
+
 language: minimal
 
 script: bash test.sh
 
-dist: bionic
+
